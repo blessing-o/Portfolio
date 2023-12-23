@@ -135,8 +135,41 @@ h2{
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 867px) {
+  #about h1,
+  #work h2,
+  #contact h2 {
+    font-size: 1.5em; /* Adjust the font size for better visibility on smaller screens */
+  }
 
+  .vertical-border {
+    border-right: none; /* Remove right border on smaller screens */
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 15px; /* Add some spacing between sections on smaller screens */
+  }
 
+  .section-spacing {
+    margin-bottom: 150px; /* Adjust spacing between sections on smaller screens */
+  }
+}
+
+/* Tablet Styles - Adjust based on your needs */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #about h1,
+  #work h2,
+  #contact h2 {
+    font-size: 1.8em; /* Adjust the font size for tablets */
+  }
+
+  .vertical-border {
+    /* Adjust tablet styles as needed */
+  }
+
+  .section-spacing {
+    /* Adjust tablet styles as needed */
+  }
+}
 
 
 
