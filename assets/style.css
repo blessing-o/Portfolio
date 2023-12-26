@@ -3,6 +3,7 @@ body {
   background-color: #1a1a1a;
   color: #ffffff;
   margin: 0;
+  overflow-x:hidden
 }
 
 /* Header Styling */
@@ -168,6 +169,7 @@ h2{
   .section-spacing {
   }
 }
+
 
 
 
